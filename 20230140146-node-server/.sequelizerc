@@ -1,0 +1,7 @@
+const pant = require('path');
+module.exports = {
+  'config': pant.resolve('config', 'config.js'),
+  'models-path': pant.resolve('models'),
+  'seeders-path': pant.resolve('seeders'),
+  'migrations-path': pant.resolve('migrations')
+};
